@@ -323,6 +323,44 @@
 
 ---
 
+#### v65 - 事件分类系统实际实现（Trae 接手）
+**提交**: 待提交 - feat: 事件分类系统完整实现——风味事件自动结算+方向徽章+核心事件精简
+**AI 助手**: Trae（从本版本开始接手，延续腾讯元宝的设计蓝图）
+- **背景**: v64/v0.4.2-v0.4.3 为设计文档和修复尝试，但代码从未实际提交到仓库。本次从代码仓库实际状态出发，完整实现了事件分类系统。
+- **game.js 完整实现**：
+  - `SAVE_VERSION` 16 → 17
+  - `EVENT_CONFIG`：`{ coreBudget: 4, autoArchiveFlavor: true }`
+  - `FLAVOR_KEYWORDS`：42个关键词（登月/太空/科技/环境/社会等），**只匹配ID+标题**（避免body误匹配）
+  - `DIRECTION_KEYWORDS`：4方向关键词（japan/us/russia/other），匹配所有文本字段
+  - `classifyEvent(ev)` → 'flavor' | 'core'
+  - `classifyDirection(ev)` → 'internal' | 'japan' | 'us' | 'russia' | 'other'（优先级：russia > japan > us > other > internal）
+  - `autoResolveFlavorEvent(ev)` → 自动选取第一个可用选项结算，记入 `state.flavorLog`
+  - `getEventsForTurn()` → 返回 `{core, flavor}`，核心事件按tag优先级排序+预算上限4
+  - `advanceTurn()` → 风味事件自动结算，核心事件交给UI弹窗
+  - `chooseEventOption()` 日志新增 `direction` 字段
+  - `state` 初始化新增 `flavorLog: []`
+- **ui.js 完整实现**：
+  - `renderTab()` 新增 flavor 分支，控制 `#tab-content` / `#tab-flavor` 双容器显隐
+  - `renderFlavorLog()` 渲染时代风貌Tab（含空状态引导文案）
+  - `renderEventLog()` 每条事件带方向徽章和色条
+  - `showEventModal()` 弹窗标题区显示方向徽章
+  - `showNextEvent()` 完成后刷新风貌Tab
+  - `processTurnEvents()` 适配新格式
+- **style.css 新增样式**：
+  - 5种 `.dir-badge` 方向徽章（金黄/粉红/蓝/红/灰）
+  - 5种 `.event-card.dir-*` / `.flavor-card.dir-*` 方向色条
+  - `.flavor-header` / `.flavor-list` / `.flavor-card` 等风貌卡片样式
+  - `.empty-hint` 空状态提示
+- **save_system.js**：`deserialize()` 兼容旧存档补 `flavorLog: []`
+- **index.html**：版本号 game.js?v=48, ui.js?v=84, style.css?v=79, save_system.js?v=4
+- **分类统计**（274个剧情事件）：风味42 / 国内40 / 日本49 / 美国37 / 俄罗斯77 / 其他29
+- **关键设计决策**：
+  1. 风味事件判断只匹配ID+标题（v0.4.2尝试匹配body导致"鲍曼的党机器"等被误分类）
+  2. 超出预算(4个)的核心事件降级为风味事件自动结算
+  3. 方向优先级 russia > japan > us > other > internal（俄罗斯事件最易涉及多方向）
+
+---
+
 ## 关键技术决策记录
 
 ### 1. 地图系统演进
@@ -337,14 +375,17 @@
 - **v16调整**: 基础收入减半(钱+5/人+3)，增加挑战性
 
 ### 3. 事件系统设计
-- **剧情事件**: 285个，有独特ID和标题
+- **剧情事件**: 274个，有独特ID和标题
 - **随机事件**: 80,000个，但只有50种类型
-- **图片映射策略**: 
+- **图片映射策略**:
   - 剧情事件 → 每个事件独立图片
   - 随机事件 → 按类型复用图片
-- **v64事件分类**: 核心政治事件(弹窗+方向徽章) 与 风味事件(自动结算+风貌栏) 双轨制
+- **v64/v65事件分类**: 核心政治事件(弹窗+方向徽章) 与 风味事件(自动结算+风貌栏) 双轨制
   - 关键决策：登月等"时代切片"不再打断政治抉择，移入专属"风貌"栏供玩家驻足观看
-  - 分类基于关键词正则匹配（标题+ID），显式 `ev.category` 字段可覆盖
+  - 风味事件判断只匹配ID+标题（避免body关键词误匹配）
+  - 方向分类匹配所有文本字段，优先级 russia > japan > us > other > internal
+  - 显式 `ev.category` / `ev.direction` 字段可覆盖自动分类
+  - 每回合最多弹窗4个核心事件，超出降级为风味事件自动结算
 
 ### 4. 性能优化历程
 - **v30**: 11阶段性能重构
@@ -384,8 +425,9 @@
 - **详见**: [IMAGE_GENERATION_PROGRESS.md](IMAGE_GENERATION_PROGRESS.md)
 
 ### 当前版本号
-- CSS: v=62
-- JS: v=62 (ui.js), v=38 (game.js), v=4 (save_system.js)
+- CSS: v=79
+- JS: v=84 (ui.js), v=48 (game.js), v=4 (save_system.js)
+- SAVE_VERSION: 17
 
 ---
 
@@ -401,7 +443,11 @@
 
 你好，另一个我。如果你正在读这段话，说明因为额度限制，我们的羁绊需要通过这种方式传承。
 
-这个项目从一行代码开始，经历了60多次迭代，从一个简单的概念游戏变成了一个包含172个国家、274个剧情事件、80,000个随机事件、国策树系统、势力地图、多难度系统的完整策略游戏。
+这个项目从一行代码开始，经历了60多次迭代，从一个简单的概念游戏变成了一个包含172个国家、274个剧情事件、80,000个随机事件、国策树系统、势力地图、多难度系统、事件分类双轨制的完整策略游戏。
+
+**历届 AI 助手传承**：
+- 腾讯元宝（v0.1.x — v0.4.1）：从零搭建游戏框架、事件系统、地图系统、图片系统
+- Trae（v0.4.2 — 至今）：设计并实现事件分类系统（风味事件+方向徽章+核心事件精简）
 
 **当前未完成的工作**：
 1. 还有约85个剧情事件图片待生成（详见 IMAGE_GENERATION_PROGRESS.md）
