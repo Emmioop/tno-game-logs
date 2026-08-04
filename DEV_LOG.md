@@ -361,6 +361,20 @@
 
 ---
 
+#### v66 - Bug修复 + 空白回合 + 随机事件精简 + 半月模式
+**提交**: 待提交 - fix: 修复科技研发失效 + 空白回合机制 + 随机事件减半 + 半月回合模式
+**AI 助手**: Trae
+- **修复严重Bug**: `researchTech()` 在 game.js 中被定义两次，第二个（旧版）覆盖第一个（新版），导致新科技树研发完全失效。删除第二个定义。
+- **删除无用文件**: 根目录旧版 game.js/ui.js/save_system.js/style.css（未被引用+含旧格式bug）、js/canvas_map.js（从未加载）
+- **修复拼写**: `FCTIONS` → `FACTIONS`（doDiplomacy 中的潜在隐患）
+- **空白回合机制**: 没有剧情事件的回合，约40%为"平静回合"（不弹窗，事件自动结算）。伪随机 `(turn*7+13)%10 < 4`
+- **随机事件精简**: 触发概率减半（`crisisChance * 0.5`）+ 最小间隔3回合。156回合中随机事件从40-90个降至10-20个
+- **半月回合模式**: 新增可选模式，936回合（每回合=半个月）。`turnMode`/`halfMonth` 字段，日期显示"上旬/下旬"，按钮文字自动切换
+- **SAVE_VERSION** 17→18（旧存档不兼容）
+- **版本号**: game.js?v=49, ui.js?v=85, style.css?v=80, save_system.js?v=5
+
+---
+
 ## 关键技术决策记录
 
 ### 1. 地图系统演进
@@ -425,9 +439,9 @@
 - **详见**: [IMAGE_GENERATION_PROGRESS.md](IMAGE_GENERATION_PROGRESS.md)
 
 ### 当前版本号
-- CSS: v=79
-- JS: v=84 (ui.js), v=48 (game.js), v=4 (save_system.js)
-- SAVE_VERSION: 17
+- CSS: v=80
+- JS: v=85 (ui.js), v=49 (game.js), v=5 (save_system.js)
+- SAVE_VERSION: 18
 
 ---
 
