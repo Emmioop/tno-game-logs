@@ -278,3 +278,66 @@ sansbody/sanshead/sanslegs/sanstorso/sanssweat, gasterblaster0/1, bonestabh/bone
 - 加入 Dusttale/Dusttrust 素材替换 Sans → 德衫
 - 加入 karma（KR 紫血）系统
 - 加入 step_2 终极弹幕
+
+---
+
+## v80 · 2025-08-07 · c2-sans-fight 完整集成（CSV 弹幕引擎 + sprite sheet）
+
+### 用户消息
+> 我不是让你搬游戏链接，我是让你学习或搬他的弹幕素材，他的设计！
+
+### 核心改动
+1. **创建 `js/c2sf_engine.js`** — 完整的 c2-sans-fight CSV 指令流引擎
+   - 小型字节码 VM：SET/ADD/SUB/MUL/DIV/MOD/RND/COS/SIN/FLOOR/ANGLE/GetHeartPos + JMP* 系列跳转
+   - 15 种弹幕指令实现：BoneV/BoneVRepeat/BoneHRepeat/BoneStab/SineBones/GasterBlaster/Platform/PlatformRepeat/HeartMode/HeartTeleport/HeartMaxFallSpeed/CombatZoneResize/CombatZoneResizeInstant/BlackScreen/EndAttack
+   - Sprite sheet 绘制系统（用 png 素材代替 canvas 画几何形状）
+   - 灵魂物理（红魂自由/蓝魂重力+跳跃+平台碰撞）
+   - 弹幕碰撞检测
+
+2. **集成到 `undertale_battle.js`**
+   - BATTLE_PHASES 从手写 10 回合 → 14 回合 CSV 文件列表
+   - spawnPhase 加 C2SF 分支：如果 phase 有 csv 字段，走 C2SF.startAttack()
+   - loop() 主循环加 C2SF 分支：优先 C2SF.update() + C2SF.draw() + C2SF.collidesBullet()
+   - 保留旧的手写弹幕系统作为 fallback
+
+3. **素材搬运** — 76 个文件到 assets/c2sf/
+   - 49 张 PNG sprite sheet（bonev/h、gasterblaster、platform1/2、Sans 全套、playerheart、hp/kr bar、虚拟按键...）
+   - 22 个 CSV 弹幕配置（intro/multi1-3/platforms1-4/blaster/randomblaster/bonestab/bonegap/boneslide/bluebone/final/spare）
+
+### 坐标系
+- c2-sans-fight 原始 canvas：640x480
+- CombatZone 是弹幕区可调整范围（left/top/right/bottom）
+- C2SF.draw() 自动做 640x480 → canvas 实际尺寸的缩放
+
+### BATTLE_PHASES 列表
+| # | CSV | 内容 |
+|---|-----|------|
+| 0 | sans_intro.csv | Intro（8条龙骨炮+正弦波+Slam）|
+| 1-3 | sans_multi1/2/3.csv | Multi Attack（骨头墙+平台+龙骨炮）|
+| 4 | sans_platformblaster.csv | 平台+龙骨炮组合 |
+| 5-6 | sans_platforms1/2.csv | 平台系列 |
+| 7 | sans_boneslidev.csv | 垂直滑骨 |
+| 8 | sans_bonegap1.csv | 骨缝 |
+| 9 | sans_bluebone.csv | 蓝色动罚骨头 |
+| 10-11 | sans_randomblaster1/2.csv | 随机追踪龙骨炮 |
+| 12 | sans_bonestab1.csv | 骨头刺（预警→发射）|
+| 13 | sans_final.csv | **Final Step_2**（完整 15s 终局战）|
+
+### 清理
+- 删除了之前误搬的 sans/ 子目录（HTML5 成品游戏）
+
+### 后续可做
+- Dusttale 素材替换：把 sprite sheet 换成 Dusttale 风格（紫色龙骨炮、异色瞳等）
+- 加入 karma（KR 紫血）系统
+- 加入 Dusttale Step_2 专属弹幕（旋转风车、紫色追踪骨头）
+- 加入 Dusttrust/Dusttale Revenge 的 GameMaker 资源进一步丰富
+
+### 文件变更
+- js/c2sf_engine.js（新增，779 行）
+- js/undertale_battle.js → v80（修改 BATTLE_PHASES + spawnPhase + loop）
+- index.html → 引入 c2sf_engine.js?v=10 + undertale_battle.js?v=80
+- assets/c2sf/（新增 76 个文件，~1MB）
+
+### 部署
+- https://emmioop.github.io/tno-strategy-game/
+- Ctrl+Shift+R 硬刷验证
