@@ -239,3 +239,42 @@
 - logs-repo/promised.zip（用户新上传）
 - logs-repo/Dusttrust by ck 低特效.7z.001/002（用户新上传）
 - logs-repo/DUSTTALE TimePressed Revenge.7z.001/002（用户新上传）
+
+---
+
+## v70 · 2025-08-07 · 集成 c2-sans-fight 公共仓库成品
+
+### 用户消息
+> 我想直接使用sans模拟器的设计，之后再加以改进，sans模拟器是公共仓库，可以直接拿过来用
+
+### 发现 sans-simulator/c2-sans-fight 仓库
+- **URL**：https://github.com/sans-simulator/c2-sans-fight
+- **发布版（HTML5 成品）**：c2runtime.js + data.js + jquery + 20+ 弹幕 CSV + 49 张 sprite sheet
+- **体积**：2.3MB（932KB c2runtime + 844KB data.js + 244KB images + CSV）
+- **原作者仓库**（Construct 2 工程）：Jcw87/c2-sans-fight
+- **线上部署**：https://sans-simulator.github.io/c2-sans-fight/
+
+### 弹幕 CSV 文件（22个）
+sans_intro.csv, sans_multi1/2/3.csv, sans_platforms1/2/3/4.csv, sans_platformblaster.csv, sans_platformblasterfast.csv, sans_bonestab1/2/3.csv, sans_bonegap1/2.csv, sans_bonegap1fast.csv, sans_boneslideh.csv, sans_boneslidev.csv, sans_bluebone.csv, sans_randomblaster1/2.csv, sans_final.csv, sans_spare.csv
+
+### Sprite sheet（49张 PNG）
+sansbody/sanshead/sanslegs/sanstorso/sanssweat, gasterblaster0/1, bonestabh/bonestabv/bonestabwarn/bonev/boneh, hpbar/krbar/hpbackground, toucha/touchb/touchdpad, uifight/uiact/uiitem/uimercy, platform1/platform2, playerheart, heartshard, menuitem, target, speechbubble, damagefont, sansfont, defaultfont, combatzone...
+
+### 部署结构
+- `tno-strategy-game/sans/index.html` — 干净入口（去掉 Yandex SDK/GA/AdSense）
+- `tno-strategy-game/sans/c2runtime.js` — Construct 2 运行时
+- `tno-strategy-game/sans/data.js` — 游戏数据（sprite + 逻辑）
+- `tno-strategy-game/sans/images/` — sprite sheet
+- `tno-strategy-game/sans/sans_*.csv` — 弹幕配置
+- 主入口 index.html 加了跳转按钮
+
+### 访问地址
+- 完整游戏：https://emmioop.github.io/tno-strategy-game/sans/
+- 主入口跳转按钮：已在 index.html 加 ☠ Bad Time Simulator 链接
+
+### 后续改进方向
+- 用自己写的 JS 重写 data.js 里的弹幕逻辑
+- 替换 sprite sheet 为自己画的
+- 加入 Dusttale/Dusttrust 素材替换 Sans → 德衫
+- 加入 karma（KR 紫血）系统
+- 加入 step_2 终极弹幕
