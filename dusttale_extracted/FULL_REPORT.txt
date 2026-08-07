@@ -1,0 +1,252 @@
+
+======================================================================
+  DUSTTALE APK 完整解析报告 — 战斗系统逆向工程
+======================================================================
+
+📦 源文件: Dusttale：杀人喜剧/游戏数据/game.droid (53.3 MB)
+🎮 引擎: UndertaleModEngine (基于 GameMaker 8)
+👤 Sans 全称: Determination Sans (尘埃 Sans)
+
+======================================================================
+  一、Sans 完整战斗回合表 (act2 场景)
+======================================================================
+
+编号       脚本名                  说明
+────────────────────────────────────────────────────────────────
+0   act2_sansturn0           回合 0 - 开场对话 / 热身
+1   act2_sansturn1           回合 1 (弹幕基础版)
+    act2_sansturn1alt        回合 1 替代版本 (难度选择?)
+2   act2_sansturn2           回合 2 (龙骨炮登场?)
+    act2_sansturn2alt        回合 2 替代版本
+    act2_sansturn2_11        回合 2 的第 11 种子模式
+3   act2_sansturn3           回合 3 (蓝魂登场?)
+    act2_sansturn3alt        回合 3 替代版本
+4   act2_sansturn4           回合 4 (组合技?)
+5   act2_sansturn5           回合 5 (Karma 紫血登场?)
+6   act2_sansturn6           回合 6
+7   act2_sansturn7           回合 7 (特殊攻击?) — 有独立 Draw 事件!
+8   act2_sansturn8           回合 8
+    act2_sansturn8_5         回合 8.5 (过渡?)
+9   act2_sansturn9           回合 9 (最终战!) — Step_2 模式 (疯狂弹幕)
+    act2_sansturn9_5         回合 9 子阶段 5
+    act2_sansturn9_6         回合 9 子阶段 6
+    act2_sansturn9_7         回合 9 子阶段 7
+    act2_sansturn9_8         回合 9 子阶段 8
+
+⭐ 每个回合对象都有:
+  Create_0   — 初始化
+  Step_0/2   — 帧更新 (逻辑循环, Step_2 可能是加速帧)
+  Other_10   — 事件 10 (可能是碰撞/回调)
+  Other_13   — 事件 13 (可能是结束/清理)
+  Draw_0     — 自定义绘制 (sansangry 表情等)
+
+======================================================================
+  二、Sans 专属弹幕/对象资产
+======================================================================
+
+龙骨炮(Gaster Blaster)相关:
+  🎯 sansfire        — 龙骨炮火焰 (主弹)
+  🎯 sansfireap      — 龙骨炮火焰 AP (穿透?)
+  🎯 sansfirebody    — 龙骨炮身体部分
+  
+Gaster 手 (决定命运的手):
+  ✋ sanshand         — Gaster 手 1
+  ✋ sanshand2        — Gaster 手 2
+  ✋ sanshand3        — Gaster 手 3
+  
+龙骨炮支架/身体:
+  🏗️ sanspost        — 支架
+  🏗️ sanssharf       — 尖锐部件
+
+Sans 身体/状态:
+  💀 sansface         — 面部
+  💀 sansup/down      — 抬头/低头
+  💀 sansright        — 右转
+  💀 sansrightdark    — 右转 (暗色)
+  💀 sans_static      — 静态
+  💀 sansbody2        — 身体 2
+  💀 sansact2         — act2 场景身体
+  💀 sansdead         — 死亡
+  💀 sans_dead        — 死亡 (另一版本)
+
+特效:
+  ✨ sanseffect       — 特效系统
+  ✨ sansangry        — 愤怒表情 (用于 Draw 事件!)
+  ✨ sansfinal        — 最终阶段身体
+  ✨ sansfinal2       — 最终阶段 2
+  ✨ sanswater        — 水 (瀑布?)
+  ✨ sansfish         — 鱼 (彩蛋?)
+  ✨ sansrun          — 逃跑动画
+
+弹幕/子弹:
+  💥 bullet           — 基础子弹
+  💥 bullet_gb        — Gaster Blaster 子弹 (!!)
+  ⚠️ bone_stab_alert  — 骨头刺预警线 (重点!)
+
+======================================================================
+  三、骨头弹幕类型 (Bone Sprites)
+======================================================================
+
+  🦴 spr_cbone          — C 形骨头
+  🦴 spr_dbone          — D 形骨头
+  🦴 spr_oolbone        — O 形骨头 (环形?)
+  🦴 spr_skatebone      — 滑冰骨头 (移动平台!)
+  🦴 spr_superbone      — 超级骨头 (大骨头平台)
+  🦴 spr_udebone        — U 形骨头
+
+激光:
+  ⚡ spr_battlelaser    — 战斗激光
+  ⚡ spr_laser1         — 激光类型 1
+  ⚡ spr_laser2         — 激光类型 2
+
+尘埃粒子:
+  💨 spr_dustcloud_1    — 尘埃云 (Dusttale 特色!)
+  💨 spr_pixeldust      — 像素尘埃
+
+======================================================================
+  四、灵魂颜色系统 (Soul Sprites)
+======================================================================
+
+  🔴 spr_battle_soul           — 默认红魂 (自由移动)
+  🔵 spr_battle_soul_blue      — 蓝魂 (受重力影响!)
+  🟠 spr_battle_soul_orange    — 橙魂 (穿过弹幕)
+  🔵🟠 spr_battle_soul_blue_orange — 蓝橙双魂 (Papyrus 专属)
+  💗 spr_battle_soul_pink      — 粉魂 (与紫互克!)
+  💔 spr_battle_soul_break     — 破碎灵魂 (死亡时)
+  ✂️ spr_battle_soul_slice     — 灵魂切片
+
+灵魂平台 (不同颜色有不同效果!):
+  🟣 spr_battle_platform_purple — 紫色平台 (Karma?)
+  🔴 spr_battle_platform_red    — 红色平台
+  🟢 spr_battle_platform_green  — 绿色平台
+  🟡 spr_battle_platform_bounce — 弹跳平台
+
+灵魂伤害/模式机制:
+  * Purple damages pink, and pink damages purple!  (Karma 互克!)
+
+======================================================================
+  五、战斗 UI / HUD 系统
+======================================================================
+
+  ❤️ spr_battle_ui_hp           — HP 条
+  💜 spr_battle_ui_kr           — KR (Karma Retribution!) UI!
+  🗡️ spr_battle_menu_fight_aim — FIGHT 瞄准条
+  🔪 spr_battle_menu_fight_anim_knife — FIGHT 刀动画
+  ⬅️ spr_battle_menu_fight_bg  — FIGHT 背景
+  🏃 spr_battle_menu_flee      — FLEE 菜单
+  📦 spr_battle_menu_item_*    — ITEM 菜单滚动条
+  
+  💬 spr_battle_dialog_enemy_spike_wide — 敌人尖刺对话框
+  💬 spr_battle_dialog_enemy_spike      — 敌人尖刺对话框 (窄)
+  💬 spr_battle_dialog_enemy_corner     — 敌人角落对话框
+
+HUD 模板 (UndertaleModEngine 格式):
+  "{insert NAME}"
+  LV  {insert LV}
+  HP  {insert HP} / {insert HP_MAX}
+  AT  {insert ATK} ({insert ATK_ITEM})
+  DF  {insert DEF} ({insert DF_ITEM})
+  KILLS: {insert KILLS}    ← Dusttale 特色!
+
+其他战斗变量:
+  - reset_count            — 重置次数
+  - g_gold / g_exp         — 金币/经验
+  - g_kills / g_deaths     — 击杀数/死亡数
+
+伤害显示:
+  💢 spr_battle_damage         — 正常伤害数字
+  💢 spr_battle_damage_miss    — Miss 显示
+  ✨ spr_battle_soul_slice     — 灵魂切片特效
+
+======================================================================
+  六、Sans 状态变量 (Game Variables)
+======================================================================
+
+  sanshp        — Sans HP (Boss HP)
+  sansdef       — Sans DEF
+  sansatk       — Sans ATK
+  sanslv        — Sans LV
+  sanskills     — Sans 击杀数 (应该是 kills)
+  sansoverturn  — Sans 超过某回合后才受伤害! (11 回合后!)
+  sansdead      — 是否已死
+  sansrun       — 是否逃跑
+  sansfirstkill — 首次击杀标记
+
+Sans 对话/表情变量:
+  sansdialog    — 对话系统
+  sansangry     — 愤怒表情 (表情切换!)
+  sanschinese   — 中文模式 (?)
+
+======================================================================
+  七、Sans 关键对话文本 (UndertaleModEngine 标签格式)
+======================================================================
+
+开场/对话:
+  {font 4}{voice 3}you, after all, reset the timeline to the moment you arrive time after time to see something new.
+  
+  {font 4}{voice 3}* i'll save everyone from the human, their comedy is about to turn into tragedy.
+  
+  {font 4}{voice 3}no matter how much i tried to stop the human, i was never able to succeed. then i realized that my power was not enough...
+
+战斗中的对话:
+  * You told sans that his own genocide makes him the same as you... Sans's attack decreased for next 2 turns.
+  
+  * Sans hesitates.
+  * Sans' mind is getting cloudy.
+
+BOSS 介绍:
+  A skeleton named Sans tired of the constant deja vu with the deaths of everyone.
+
+作者致谢:
+  Dusttale by Ask Dusttale
+  FDY / Fromest / Akt Atk / __b / Evil temmie
+
+UndertaleModEngine 标签速查:
+  {voice N}         — 声音 (3 = Sans)
+  {font N}          — 字体 (4 = Sans 专属)
+  {color `xxx`}     — 颜色
+  {sleep N}         — 停顿 N 帧
+  {pause}           — 等待玩家点击
+  {clear}           — 清屏
+  {hf N}            — 强调程度 (12 = 强)
+  {effect 0/1}      — 画面特效 (闪红等)
+  &                 — 空格/换行
+  &&                — 双换行
+
+======================================================================
+  八、物理系统 / 核心机制
+======================================================================
+
+重力系统 (Gravity):
+  gravity_direction       — 重力方向
+  _gravity_fall           — 下落速度
+  _gravity_fall_max       — 最大下落速度
+  _gravity_jump           — 跳跃力量
+
+Karma / 紫血 (KR = Karmic Retribution):
+  spr_battle_ui_kr        — KR UI 元素 (紫血条!)
+  * Purple damages pink, and pink damages purple.
+  
+伤害机制:
+  - 正常攻击扣黄血 (HP)
+  - KR 伤害扣紫血 (持续掉血)
+  - 紫血满 → 死亡
+
+无敌帧 (I-frames):
+  invuln_timer / i_frames — 受伤后短暂无敌
+  sansoverturn            — 前 N 回合无法对 Sans 造成伤害!
+
+======================================================================
+  九、我们战斗引擎应参考的关键差异
+======================================================================
+
+1. KR (Karma Retribution) 是独立的 UI 元素 — 不是紫色 HP 条
+2. 每个弹幕回合有 3 个事件: Create/Step/Other
+3. Sans 有 Step_2 模式 — 可能是加速或特殊阶段
+4. Draw 事件独立 — 可覆盖默认绘制 (sansangry 时)
+5. 灵魂颜色 = 弹幕模式切换 (红=自由, 蓝=重力, 橙=穿透)
+6. 骨头预警线 (bone_stab_alert) — 先显示警告再发射!
+7. bullet_gb = Gaster Blaster 专属子弹 (不是普通 bone)
+8. sansoverturn 变量 = 我们的 dodgeTurns 机制
+
+======================================================================

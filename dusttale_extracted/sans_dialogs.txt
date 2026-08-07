@@ -1,0 +1,1775 @@
+# Sans 相关对话 (443 条)
+============================================================
+
+{voice 2}{font 3}{skippable false}{papusbazarus}I GUESS YOU WERE &RIGHT, SANS...{papusnebazarus}{sleep 290}{clear}{papusbazarus}I WAS FOOLISH TO &BELIEVE THAT &THE HUMAN DESERVES &A SECOND CHANCE.{papusnebazarus}{sleep 290}{clear}{papusbazarus}BUT NOW, THE GREAT &PAPYRUS WILL SHOW &THEM THEIR PLACE.{papusnebazarus}{sleep 260}{clear}{papusbazarus}BY GIVING THEM A &TRULY UNFORGETTABLE &LESSON.{papusnebazarus}{sleep 100}{end}
+
+----------------------------------------
+
+{hf 12}I'M SORRY, SANS... {papusnebazarus}{sleep 20}{papusbazarus}IN &THE END, I WAS NOT &THE GREATEST.{papusnebazarus}{sleep 20}{papusbazarus} I'M &PATHETIC{papusnebazarus}{sleep 10}{papusbazarus}, AREN'T I?{papusnebazarus}{pause}{clear}{papusbazarus}...I'LL SEE YOU &SOON,{papusnebazarus}{sleep 10}{papusbazarus} BROTHER...{papusnebazarus}
+
+----------------------------------------
+
+{voice 3}{font 4}.{sleep 30}.{sleep 30}.{pause}{clear}{speed 4}good job,{sleep 10} bro.{pause}{clear}{speed 5}.{sleep 30}.{sleep 30}.{pause}{clear}{speed 6}{effect 0}{db 0}kill the human, {sleep 10}no &matter the cost.{pause}{clear}{speed 7}someone has to stop them.
+
+----------------------------------------
+
+{voice 3}{font 4}no matter how much i &tried to stop the human, &i was never able to &succeed.{pause}{clear}then i realized that my &power was not enough &to stop them.{pause}{clear}this is the {effect 0}ONLY{effect -1} option, &so i'll make this quick.
+
+----------------------------------------
+
+...I JUST REALIZED I &MADE A PUN. {papusnebazarus}{sleep 20}{papusbazarus}THAT &WAS NOTMY INTENTION, &BUT...{papusnebazarus}{sleep 20}{papusbazarus} SANS WOULD'VE &ENJOYED IT...{papusnebazarus}{pause}{clear}{papusbazarus}
+
+----------------------------------------
+
+{font 4}{voice 3}you may remember what &i told you about &anomalies a long time ago. {pause}{clear}i couldn't figure out &what caused them for a &long time, even though &i knew you had something &to do with it.
+
+----------------------------------------
+
+{font 4}{voice 3}you, after all, reset the &timeline to the moment &you arrive time after &time to see something new. {pause}{clear}{color `red`}{effect 0}{hf 6}it's just a game for you{sleep 15}, &isn't it?
+
+----------------------------------------
+
+{pause}{clear}{papusbazarus}THIS IS FOR YOU &SANS{papusnebazarus}{sleep 10}{papusbazarus}, AND FOR YOU &UNDYNE!{papusnebazarus}{sleep 10}{papusbazarus} SAY &GOODBYE, HUMAN!{papusnebazarus}
+
+----------------------------------------
+
+* You told sans that his own &  genocide makes him the &  same as you.{pause}{clear}* He began to get frustrated. &{sleep 30}* Sans's attack decreased for &  the next 2 turns!
+
+----------------------------------------
+
+{voice 3}{font 4}.{sleep 30}.{sleep 30}.{pause}{clear}{speed 4}骞茬殑濂斤紝{sleep 10}鍏勫紵銆倇pause}{clear}{speed 5}.{sleep 30}.{sleep 30}.{pause}{clear}{speed 6}{effect 0}{db 0}鏉
+
+----------------------------------------
+
+* You told sans that his own &  genocide makes him same as you.{pause}{clear}* He began to get frustrated. &{sleep 30}* Sans's attack decreased for &  next 2 turns!
+
+----------------------------------------
+
+{font 4}{voice 3}all i could do was "read" &your emotions and monitor &devices measurements, {sleep 15}but &i was getting too little &information from that.
+
+----------------------------------------
+
+{voice 2}{font 3}{papusbazarus}YOU KNOW, {papusnebazarus}{sleep 10}{papusbazarus}FROM &WHAT I CAN &UNDERSTAND THAT &SANS SAID...{papusnebazarus}
+
+----------------------------------------
+
+{font 4}{voice 3}* 褝褌邪 褑械谢褜 写谢褟 屑械薪褟 芯褔械薪褜 胁邪卸薪邪. {sleep 15} &  锌芯褝褌芯屑褍 薪械 褏芯褔械褕褜 {color `red`}{effect 0}锌芯谢械褌邪褌褜{effect -1}{color `white`}?
+
+----------------------------------------
+
+{font 4}{voice 3}* this goal is very important to&  me. {sleep 15}so you don't want to{color `red`}{effect 0} fly{effect -1}{color `white`}?
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.7}* the sooner i do this{sleep 15}, the &  better off we'll be.{sleep 15} sorry, paps.
+
+----------------------------------------
+
+{font 4}{voice 3}* 褟 胁褋褢 械褖褢 薪械 褍胁械褉械薪 锌褉邪胁懈谢褜薪芯 &  谢懈 胁褋褢 褝褌芯. {sleep 20}薪芯 褟 褍胁械褉械薪 褔褌芯 褝褌懈&  胁懈写械薪懈褟 褌芯褔薪芯 褔褌芯-褌芯 蟹薪邪褔邪褌.{ended}
+
+----------------------------------------
+
+{papusnebazarus}{pause}{clear}{papusbazarus}NOT TODAY!!! {papusnebazarus}{sleep 30}{papusbazarus}I'LL &HONOR SANS' FINAL &WISH.
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* 褝褌芯 斜褘谢芯 褉懈褋泻芯胁邪薪薪芯{sleep 15}, 锌芯褏芯卸械{sleep 15}, 锌芯泻邪 &  褋褌芯懈褌 写械褉卸邪褌褜褋褟 锌芯写邪谢褜褕械 &  芯褌 薪械谐芯.{ended}
+
+----------------------------------------
+
+{font 3}{voice 2}YES, SANS, {sleep 15}A HUMAN.{pause}{clear}AND IT WOULD BE AWFUL &IF WE DIDN'T GET ANYTHING &DONE IN TIME.
+
+----------------------------------------
+
+{font 4}{voice 3}* 褉械褕懈屑芯褋褌褜, 褌芯 褔褌芯 写械谢邪械褌 械谐芯 &  褋懈谢褜薪械械 薪邪褋{sleep 15} 懈 褌芯, 褔褌芯 褉邪蟹 蟹邪 &  褉邪蟹芯屑 胁芯蟹胁褉邪褖邪械褌 械谐芯 泻 卸懈蟹薪懈.
+
+----------------------------------------
+
+{font 4}{voice 3}* i'll save everyone from &  the human{sleep 30}, their comedy is &  about to turn into tragedy.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* i'm still not sure if this &  is right. {sleep 20}but i'm sure these&  visions mean something.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* 蟹写械褋褜 褌邪泻 褌懈褏芯{sleep 15}, 卸褍褉褔邪薪懈械 &  胁芯写褘{sleep 15} - 械写懈薪褋褌胁械薪薪芯械, 褔褌芯 屑芯卸薪芯 &  褍褋谢褘褕邪褌褜.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* 褟 褋锌邪褋褍 胁褋械褏 芯褌 褔械谢芯胁械泻邪{sleep 30}, &  械谐芯 泻芯屑械写懈褟 褋芯胁褋械屑 褋泻芯褉芯 &  锌褉械胁褉邪褌懈褌褋褟 胁 褌褉邪谐械写懈褞.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}胁褋褢 褝褌芯 写械泄褋褌胁懈褌械谢褜薪芯 &芯褔械薪褜 褋褌褉邪薪薪芯,{sleep 20} 薪芯 胁 褌芯屑, &褔褌芯 褟 胁懈写械谢 褌芯褔薪芯 械褋褌褜 &泻邪泻芯泄-褌芯 褋屑褘褋谢.
+
+----------------------------------------
+
+{font 4}{voice 3}* it's so quiet here{sleep 15}, the murmuring &  water is the only thing &  you can hear.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* it was risky{sleep 15}, and it seems &  worth staying away from &  them for now.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}* this time{sleep 10}, be &  more careful with &  your bones.
+
+----------------------------------------
+
+{font 4}{voice 3}* 薪邪褕懈 锌褍褌懈 胁薪芯胁褜 褋芯褕谢懈褋褜. {sleep 30}&  褌芯谢褜泻芯 胁芯褌 褟 薪械 屑芯谐褍 锌芯蟹胁芯谢懈褌褜 &  褌械斜械 锌褉芯泄褌懈 写邪谢褜褕械.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}* 胁 褝褌芯褌 褉邪蟹, 斜褍写褜 &  胁薪懈屑邪褌械谢褜薪械械 褋芯 &  褋胁芯懈屑懈 泻芯褋褌褟屑懈.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* but now...{sleep 30}{sansangry} you're gonna &  have a bad time.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 芯写懈薪 褉邪蟹{sleep 10}{sansangry}, 懈 械褖褢 &  薪械褋泻芯谢褜泻芯 薪邪 &  锌芯写褏芯写械.
+
+----------------------------------------
+
+{font 4}{voice 3}* didn't think that killing him &  would be even harder than &  deciding to do it.{ended}
+
+----------------------------------------
+
+{voice 3}{font 4}.{sleep 30}.{sleep 30}.{pause}{clear}looks like you want &to do this the hard &way then.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* and here you are.{sleep 30}&* even earlier than &  i expected.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 2}* i'm not one of those &  who takes matters &  into own hands...
+
+----------------------------------------
+
+{font 4}{voice 3}too slow. {sleep 30}not so &quick without that &power of yours{sleep 30}, &aren't you?
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 薪芯 褋械泄褔邪褋...{sleep 30}{sansangry} 褍 褌械斜褟 斜褍写褍褌 薪械锌褉懈褟褌薪芯褋褌懈.
+
+----------------------------------------
+
+{font 3}{voice 2}SANS, I SEE THAT YOU'RE &OUT OF SORTS. {sleep 10}THERE'S NO &NEED TO KEEP DOING THIS.
+
+----------------------------------------
+
+{font 4}{voice 3}* our paths have crossed again. {sleep 30}&  except i can't let you go any&  further.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* out of all of your &  possibilities you'd &  choosen this.
+
+----------------------------------------
+
+{font 4}{voice 3}* 懈 械写懈薪褋褌胁械薪薪褘泄 褋锌芯褋芯斜 &  褝褌芯 褋写械谢邪褌褜, 懈褋锌芯谢褜蟹芯胁邪褌褜 械谐芯 &  卸械 芯褉褍卸懈械 锌褉芯褌懈胁 薪械谐芯.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 2}* 屑芯卸械褌 褟 懈 薪械 懈蟹 褌械褏, &  泻褌芯 斜械褉褢褌 胁褋褢 胁 &  褋胁芯懈 褉褍泻懈...
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* once{sleep 10}{sansangry}, and a few more on &  coming.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* and it's not like &  you were going to &  change that.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 懈蟹 胁褋械褏 褋胁芯懈褏 &  胁芯蟹屑芯卸薪芯褋褌械泄 褌褘 胁褘斜褉邪谢 &  懈屑械薪薪芯 褝褌褍.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* is it really &  a bone is stuck &  across your throat?
+
+----------------------------------------
+
+{font 4}{voice 3}褌褘 薪械 胁褘谐谢褟写懈褕褜 褌邪泻 斜褍写褌芯 &褋锌芯褋芯斜械薪 褋写械谢邪褌褜 胁褋械 褌械 &褍卸邪褋薪褘械 胁械褖懈, 褔褌芯 褟 胁懈写械谢.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 懈 薪械 锌芯褏芯卸械, 褔褌芯斜褘 褌褘 &  褋芯斜懈褉邪谢褋褟 褔褌芯-褌芯 &  屑械薪褟褌褜.
+
+----------------------------------------
+
+{font 4}{voice 3}* 薪械 写褍屑邪谢 褔褌芯 褍斜懈褌褜 械谐芯 斜褍写械褌 &  写邪卸械 褋谢芯卸薪械械 褔械屑 褉械褕懈褌褜褋褟 &  薪邪 褝褌芯.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* 械谐芯 锌芯胁械写械薪懈械{sleep 15}, 芯薪芯 薪械 锌芯褏芯卸械 &  薪邪 褌芯, 褔褌芯 褟 胁懈写械谢.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* 邪 胁芯褌 懈 褌褘.{sleep 30}&* 写邪卸械 褉邪薪褜褕械 褔械屑 褟 &  写褍屑邪谢.
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* their behavior{sleep 15}, it's unlike &  anything i've seen.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* and the only way to do that &  is to use their own weapon &  against them.
+
+----------------------------------------
+
+A skeleton named Sans &tired of the constant &deja vu with the deaths &of everyone he knows.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 薪械褍卸械谢懈 褌褘 薪械 褋屑芯谐 薪邪泄褌懈 &  谢褍褔褕械谐芯 褉邪蟹胁谢械褔械薪懈褟?
+
+----------------------------------------
+
+{font 4}{voice 3}{svo}* 褌邪泻芯泄 褕邪薪褋 屑邪谢芯 泻芯屑褍 写邪褢褌褋褟, {sleep 15}&  褌邪泻 褔褌芯 褏芯褉芯褕械谐芯 锌芯谢褢褌邪.
+
+----------------------------------------
+
+{font 4}{voice 3}{svo}* that's a chance few people get,&  {sleep 15}so have a good flight.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* couldn't you find &  anything better &  to do?
+
+----------------------------------------
+
+{font 4}{voice 3}* every time they kills{sleep 15}, they gets &  stronger and stronger.
+
+----------------------------------------
+
+{font 4}{voice 3}* 褔褌芯斜褘 芯褋褌邪薪芯胁懈褌褜 褔械谢芯胁械泻邪...{sleep 30}&* 芯褋褌邪薪芯胁懈褌褜 褝褌芯 斜械蟹褍屑懈械...
+
+----------------------------------------
+
+{font 3}{voice 2}SANS, THERE YOU ARE! {sleep 15}I'VE &BEEN LOOKING FOR YOU &ALL DAY!
+
+----------------------------------------
+
+{font 4}{voice 3}you don't look like you &can do all the terrible &things i've seen.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 薪械褍卸械谢懈 泻芯褋褌褜 &  胁褋褌邪谢邪 锌芯锌械褉褢泻 &  谐芯褉谢邪?
+
+----------------------------------------
+
+涓 鍚 鍙 SANS 鐨 楠 楂 锛 瀵 浜 浠&璁 璇 鐨 姣 涓 浜 &deja vu with the deaths &of everyone he knows.
+
+----------------------------------------
+
+{font 4}{voice 3}check all you want. {sleep 15}i &doubt you'll learn &anything new.
+
+----------------------------------------
+
+{font 4}{voice 3}* determination{sleep 15}, what makes them &  stronger than us...
+
+----------------------------------------
+
+{font 4}{voice 3}this feeling of &deja vu has already &become incredibly strong.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* the face of someone &  who just died.
+
+----------------------------------------
+
+{font 4}{voice 3}* ...{sleep 15} 薪械褍卸械谢懈 蟹写械褋褜 胁褋械谐写邪 斜褘谢芯 &  褌邪泻 锌褍褋褌芯?{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* ...{sleep 15} has this place always been &  so empty?{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}* ...and what brings them back &  to life over and over again.
+
+----------------------------------------
+
+{font 4}{voice 3}* sooner or later you will &  face the same fate as &  others.
+
+----------------------------------------
+
+{font 4}{voice 3}* 泻邪卸写褘泄 褉邪蟹, 褍斜懈胁邪褟, 芯薪 &  褋褌邪薪芯胁懈褌褋褟 褋懈谢褜薪械械 懈 &  褋懈谢褜薪械械.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 谢懈褑芯 褌芯谐芯, 泻褌芯 &  褌芯谢褜泻芯 褔褌芯 褍屑械褉.
+
+----------------------------------------
+
+{font 4}{voice 3}* 褉邪薪芯 懈谢懈 锌芯蟹写薪芯 褌械斜褟 卸写褢褌 &  褌邪 卸械 褍褔邪褋褌褜, 褔褌芯 懈 写褉褍谐懈褏.
+
+----------------------------------------
+
+{font 4}{voice 3}* it doesn't matter if it &  does me {sleep 15}or a human.
+
+----------------------------------------
+
+{voice 2}{font 3}SANS - 5 ATK 10 DEF &{sleep 30}SOMETHING'S WRONG WITH HIM.
+
+----------------------------------------
+
+{font 4}{voice 3}it was most likely one &of the anomalies created &by you.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* 褍 屑械薪褟 械褋褌褜 写谢褟 褌械斜褟 &  胁芯锌褉芯褋.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* i've got a question for &  ya.
+
+----------------------------------------
+
+{voice 2}{font 3}SANS - 5 ATK 8 DEF &{sleep 30}SOMETHING WRONG WITH HIM.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}* shall we continue?
+
+----------------------------------------
+
+{font 4}{voice 3}* to stop a human... {sleep 30}&* stop this madness...
+
+----------------------------------------
+
+{font 4}{voice 3}* 薪械胁邪卸薪芯, 斜褍写褜 褝褌芯 褋写械谢邪褞 &  褟 {sleep 10}懈谢懈 褔械谢芯胁械泻.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* you should see &  your face.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 褌褘 胁褘谐谢褟写懈褕褜 &  褉邪蟹芯蟹谢褢薪薪褘屑.
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.8}* that's why i'm here.
+
+----------------------------------------
+
+{font 4}{voice 3}this is strange, but &what i saw has to make &sense.
+
+----------------------------------------
+
+{font 4}{voice 3}{hf 2}heh heh heh... {sleep 30}{hf 6}not this &time.
+
+----------------------------------------
+
+{font 4}{voice 3}{hf 2}褏械褏 褏械褏 褏械褏... {sleep 30}{hf 6}薪械 胁 褝褌芯褌 &褉邪蟹.
+
+----------------------------------------
+
+{font 4}{voice 3}{speed 2}{scale 2}no more pain,{sleep 10} papyrus...
+
+----------------------------------------
+
+{voice 3}{font 4}please stop. {sleep 15}i need to &end this quickly.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 胁懈写械谢 斜褘 褌褘 褋胁芯褢 &  谢懈褑芯.
+
+----------------------------------------
+
+{font 4}{voice 3}{speed 2}{scale 2}涓嶄細鍐嶆湁鐥涜嫤浜嗭紝{sleep 10}papyrus...
+
+----------------------------------------
+
+{font 4}{voice 3}* all these deaths will not be &  in vain.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}what? {sleep 20}you're already using &your items?
+
+----------------------------------------
+
+{font 4}{voice 3}but sometimes i felt a &strange sense of deja vu.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 浣犲氨涓嶈兘鎵剧偣鏇村ソ鐨勪簨&   鍋氬悧锛
+
+----------------------------------------
+
+{font 4}{voice 3}* is everything i'm doing &  for nothing?{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}i keep seeing terrible &things that you've done.
+
+----------------------------------------
+
+{font 4}{voice 3}* 薪械褍卸械谢懈 胁褋褢, 褔褌芯 褟 写械谢邪褞, &  薪邪锌褉邪褋薪芯?{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}* 锌褉芯写芯谢卸懈屑?
+
+----------------------------------------
+
+{skippable false}{voice 3}{font 4}i'm sorry,{sleep 10} papyrus.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* you look pissed off.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}* 鎴戜滑缁х画鍚楋紵
+
+----------------------------------------
+
+{voice 3}{font 4}.{sleep 30}.{sleep 30}.{pause}{clear}{speed 4}
+
+----------------------------------------
+
+{font 4}{voice 3}* 胁褋械 褝褌懈 褋屑械褉褌懈 薪械 斜褍写褍褌 &  薪邪锌褉邪褋薪褘.{ended}
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 浣犲氨涓嶈兘鎵剧偣鏇村ソ鐨勪簨鍋氬悧锛
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* 杩欑湡鎯婇櫓锛寋sleep 15}鐜板湪绂讳粬杩滅偣鏄&   姝ｇ‘鐨勩
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.9}* a human...?
+
+----------------------------------------
+
+{font 4}{voice 3}let's see if you can &catch up with me now.
+
+----------------------------------------
+
+{font 4}{voice 3}* heh{sleep 15}, aren't you looking for me?
+
+----------------------------------------
+
+{font 4}{voice 3}* 鎴戜滑鍙堢浉閬囦簡銆倇sleep 30}&   浣嗘垜涓嶈兘璁╀綘鍐嶈蛋涓嬪幓浜嗐
+
+----------------------------------------
+
+{font 4}{voice 3}{hf 2}鍛靛懙鍛... {sleep 30}{hf 6}鐜板湪鐨勪綘鍙&鍋氫笉鍒般
+
+----------------------------------------
+
+{font 4}{voice 3}...{pause}{clear}let's get this over with.
+
+----------------------------------------
+
+{skippable false}{voice 3}{font 4}鎴戝緢鎶辨瓑锛寋sleep 10}papyrus銆
+
+----------------------------------------
+
+{font 4}{voice 3}{hf 2}鍛靛懙鍛...{sleep 30}{hf 6}鐜板湪鐨勪綘鍙&鍋氫笉鍒般
+
+----------------------------------------
+
+* You refused to fight. {sleep 30}But Sans&  doesn't care.
+
+----------------------------------------
+
+{voice 2}{font 3}SANS - 5 鏀诲嚮 10 闃插尽 &{sleep 30}浠栨湁鐐逛笉瀵瑰姴銆
+
+----------------------------------------
+
+{font 4}{voice 3}褏械褏 褏械褏 褏械褏... {sleep 30}薪械 胁 褝褌芯褌 &褉邪蟹.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* heh heh heh...
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* 褏械褏 褏械褏 褏械褏...
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.9}* 浜虹被...锛
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.9}* 浜虹被...?
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 浣犵湡璇ョ湅鐪嬭嚜宸辩殑鑴搞
+
+----------------------------------------
+
+{font 4}{voice 3}{speed 2}{scale 2}this is the only way.
+
+----------------------------------------
+
+{font 3}{voice 2}SANS,{sleep 10} STOP,{sleep 10} PLEASE!
+
+----------------------------------------
+
+{font 4}{voice 3}...{pause}{clear}写邪胁邪泄 锌芯泻芯薪褔懈屑 褋 褝褌懈屑.
+
+----------------------------------------
+
+{font 4}{voice 3}锌芯褋屑芯褌褉懈屑 写芯谐芯薪懈褕褜 谢懈 &褌褘 屑械薪褟 褌械锌械褉褜.
+
+----------------------------------------
+
+{font 3}{voice 2}Sans锛屼綘绔熺劧鍦ㄨ繖閲岋紒{sleep 15}鎴戞壘浜&浣犱竴鏁村ぉ!
+
+----------------------------------------
+
+{font 3}{voice 2}Sans锛屼綘绔熺劧鍦ㄨ繖閲岋紒{sleep 15}鎴戞壘浜&浣犱竴鏁村ぉ锛
+
+----------------------------------------
+
+{font 4}{voice 3}{svo}* 寰堝皯鏈変汉鏈夎繖鏍风殑鏈轰細锛&   {sleep 15}鎵
+
+----------------------------------------
+
+{voice 2}{font 3}SANS!?{sleep 10} WHAT ARE YOU &DOING?
+
+----------------------------------------
+
+{font 4}{voice 3}i don't know if any of &this is true.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 鍦ㄤ綘鐨勬墍鏈夊彲鑳芥
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* 浣犵湅璧锋潵寰堢敓姘斻
+
+----------------------------------------
+
+{voice 3}{font 4}.{sleep 30}.{sleep 30}.{pause}{clear}
+
+----------------------------------------
+
+倇papusnebazarus}{sleep 20}{papusbazarus}&SANS浼氬枩娆㈢殑銆傘
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}{sansangry}*
+
+----------------------------------------
+
+{font 3}{voice 2}SANS锛寋sleep 10}鍋滀笅锛寋sleep 10}姹傛眰浣狅紒
+
+----------------------------------------
+
+{font 3}{voice 2}Sans锛屼綘绔熺劧鍦ㄨ繖閲岋紒{sleep 15}鎴戞壘浜嗕綘&涓
+
+----------------------------------------
+
+{font 3}{voice 2}SANS锛屼綘绔熺劧鍦ㄨ繖閲岋紒{sleep 15}鎴戞壘浜嗕綘&涓
+
+----------------------------------------
+
+{font 3}{voice 2}Sans锛屼綘绔熺劧鍦ㄨ繖閲岋紒{sleep 15}鎴戞壘浜嗕綘涓
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* 鍛靛懙鍛...
+
+----------------------------------------
+
+{voice 3}{font 4}鏀惧純鍚э紝{sleep 15}鎴戦渶瑕佸揩鐐&缁撴潫杩欎竴鍒囥
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.9}*
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.8}*
+
+----------------------------------------
+
+{font 4}{voice 3}{soundpitch `nyeh_heh_heh` 0.7}*
+
+----------------------------------------
+
+{font 4}{voice 3}* 褏械褏{sleep 15}, 薪械 屑械薪褟 懈褖械褕褜?
+
+----------------------------------------
+
+{font 4}{voice 3}* 娌℃兂鍒版潃浜嗕粬浼氭瘮鍋氳繖鍐冲畾鏇撮毦銆倇ended}
+
+----------------------------------------
+
+...{papusnebazarus}{sleep 20}{papusbazarus}&SANS
+
+----------------------------------------
+
+SANS...{papusnebazarus}{sleep 20}{papusbazarus}&
+
+----------------------------------------
+
+{font 4}{voice 3}褟 薪械 蟹薪邪褞 锌褉邪胁写邪 谢懈 &胁褋褢 褝褌芯.
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 2}* ...
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}* ...
+
+----------------------------------------
+
+涓 鍙 sans 鐨 楠 楂 锛 {sleep 20}瀵 浜 浠&璁 璇 鐨 姣 涓 浜 鎵
+
+----------------------------------------
+
+&{sleep 30}* 鎺ヤ笅鏉ョ殑涓や釜鍥炲悎涓&   Sans鐨勬敾鍑诲姏闄嶄綆浜嗭紒
+
+----------------------------------------
+
+{papusnebazarus}{sleep 20}{papusbazarus}&SANS
+
+----------------------------------------
+
+{voice 2}{font 3}SANS锛侊紵{sleep 10} 浣犲湪骞蹭粈涔堬紵
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}* 鎵
+
+----------------------------------------
+
+SANS{papusnebazarus}{sleep 10}{papusbazarus}
+
+----------------------------------------
+
+SANS{papusnebazarus}{sleep 20}{papusbazarus}
+
+----------------------------------------
+
+{voice 2}{font 3}SANS锛侊紵{sleep 10}浣犲湪骞蹭粈涔堬紵
+
+----------------------------------------
+
+{voice 2}{font 3}SANS? WHY WON'T YOU {end}
+
+----------------------------------------
+
+{font 4}{voice 3}* 娌℃兂鍒版潃浜嗕粬浼氭瘮鍐冲畾杩欎箞鍋氭洿闅俱
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 0}*
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 1}*
+
+----------------------------------------
+
+{font 4}{voice 3}{face 0}{face_emotion 2}*
+
+----------------------------------------
+
+{font 4}{voice 3}it's too late for mercy.
+
+----------------------------------------
+
+{font 4}{voice 3}* ...{sleep 15}杩欎釜鍦版柟涓
+
+----------------------------------------
+
+涓 鍚 鍙 SANS 鐨 楠 楂 锛 瀵 浜 浠&璁 璇 鐨 姣 涓 浜 鎵
+
+----------------------------------------
+
+涓 鍙 SANS 鐨 楠 楂 锛 &瀵 浜 浠 璁 璇 鐨 姣 涓 浜 &鎵
+
+----------------------------------------
+
+gml_Object_act2_sansturn1alt_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn1alt_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn1alt_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn2alt_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn2alt_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn2alt_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn3alt_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn3alt_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn3alt_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_11_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_11_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_11_Other_13
+
+----------------------------------------
+
+gml_Object_trigger_fishsans2_Create_0
+
+----------------------------------------
+
+gml_Object_trigger_fishsans2_Other_10
+
+----------------------------------------
+
+gml_Object_trigger_fishsans3_Create_0
+
+----------------------------------------
+
+gml_Object_trigger_fishsans3_Other_10
+
+----------------------------------------
+
+gml_Object_trigger_sansfinal_Create_0
+
+----------------------------------------
+
+gml_Object_trigger_sansfinal_Other_10
+
+----------------------------------------
+
+gml_Object_trigger_sanswater_Create_0
+
+----------------------------------------
+
+gml_Object_trigger_sanswater_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_5_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_5_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_5_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_5_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_5_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_5_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_6_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_6_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_6_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_7_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_7_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_7_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_8_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_8_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_8_Other_13
+
+----------------------------------------
+
+gml_Object_trigger_fishsans_Create_0
+
+----------------------------------------
+
+gml_Object_trigger_fishsans_Other_10
+
+----------------------------------------
+
+gml_Object_trigger_fishsans2_Draw_64
+
+----------------------------------------
+
+gml_Object_trigger_fishsans3_Alarm_0
+
+----------------------------------------
+
+涓 鍙 SANS 鐨 楠 楂 锛 瀵 浜 浠&璁 璇 鐨 姣 涓 浜 鎵
+
+----------------------------------------
+
+涓 鍙 sans 鐨 楠 楂 锛 瀵 浜 浠 璁 璇&鐨 姣 涓 浜 鎵
+
+----------------------------------------
+
+涓 鍙 sans 鐨 楠 楂 锛 瀵 浜 浠&璁 璇 鐨 姣 涓 浜 鎵
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}* 浠栫殑琛屼负鍜屾垜鎵
+
+----------------------------------------
+
+gml_Object_act2_sansturn1alt_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn2alt_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn3alt_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sanseffect_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_11_Step_0
+
+----------------------------------------
+
+gml_Object_trigger_fishsans2_Step_2
+
+----------------------------------------
+
+gml_Object_trigger_fishsans2_Draw_0
+
+----------------------------------------
+
+gml_Object_trigger_fishsans3_Step_2
+
+----------------------------------------
+
+gml_Object_trigger_fishsans3_Draw_0
+
+----------------------------------------
+
+gml_Object_trigger_sansfinal_Step_2
+
+----------------------------------------
+
+gml_Object_trigger_sansfinal_Draw_0
+
+----------------------------------------
+
+gml_Object_trigger_sanswater_Step_2
+
+----------------------------------------
+
+gml_Object_trigger_sanswater_Draw_0
+
+----------------------------------------
+
+{voice 2}{font 3}SANS锛熶綘涓轰粈涔堜笉{end}
+
+----------------------------------------
+
+{font 4}{voice 3}浣犵幇鍦ㄧ殑鏍峰瓙锛屼笉鍍&琛屾垜鎵
+
+----------------------------------------
+
+{font 4}{voice 3}浣犵幇鍦ㄧ殑鏍峰瓙锛屼笉鍍&鍋氭垜鎵
+
+----------------------------------------
+
+{font 4}{voice 3}鐪嬬湅浣犵幇鍦ㄨ兘涓嶈兘&杩戒笂鎴戙
+
+----------------------------------------
+
+{font 4}{voice 3}{speed 2}{scale 2}
+
+----------------------------------------
+
+gml_Object_act2_sansturn0_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn0_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn0_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn1_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn1_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn1_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn2_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn2_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn2_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn3_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn3_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn3_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn4_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn4_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn4_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn5_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn5_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn5_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn6_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn6_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn6_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn7_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn7_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn7_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_5_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_Other_13
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_5_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_6_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_7_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_8_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_Create_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_Other_10
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn0_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn0_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn0_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn1_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn1_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn1_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn3_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn3_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn3_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn4_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn4_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn4_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn5_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn5_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn5_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn6_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn6_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn6_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn7_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn7_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn7_Other_13
+
+----------------------------------------
+
+gml_Object_act4_sansturn8_Create_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn8_Other_10
+
+----------------------------------------
+
+gml_Object_act4_sansturn8_Other_13
+
+----------------------------------------
+
+gml_Object_trigger_fishsans_Step_2
+
+----------------------------------------
+
+gml_Object_trigger_fishsans_Draw_0
+
+----------------------------------------
+
+倇sleep 30}But Sans&  doesn't care.
+
+----------------------------------------
+
+{font 4}{voice 3}...{pause}{clear}
+
+----------------------------------------
+
+{skippable false}{voice 3}{font 4}
+
+----------------------------------------
+
+{sleep 30}But Sans&  doesn't care.
+
+----------------------------------------
+
+gml_Object_act4_sanseffect_Step_0
+
+----------------------------------------
+
+{font 4}{voice 3}鎴戜笉鐭ラ亾杩欐槸涓嶆槸鐪熺殑銆
+
+----------------------------------------
+
+gml_Object_act2_sansturn0_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn1_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn2_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn3_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn4_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn5_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn6_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn7_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn7_Draw_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn8_Step_0
+
+----------------------------------------
+
+gml_Object_act2_sansturn9_Step_2
+
+----------------------------------------
+
+gml_Object_act4_sansturn0_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn1_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn2_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn3_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn4_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn5_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn6_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn7_Step_0
+
+----------------------------------------
+
+gml_Object_act4_sansturn8_Step_0
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Create_0
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Other_13
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Other_15
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Other_17
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Other_10
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Other_20
+
+----------------------------------------
+
+{font 4}{voice 3}* ...浠ュ強涓轰粈涔堜粬涓
+
+----------------------------------------
+
+{font 4}{voice 3}* ...{sleep 15}
+
+----------------------------------------
+
+* Sans' mind is getting cloudy.
+
+----------------------------------------
+
+gml_Object_o_bonesansd_Create_0
+
+----------------------------------------
+
+gml_Object_o_bonesansO_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Other_11
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Other_13
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Other_15
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Other_10
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Other_23
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Step_0
+
+----------------------------------------
+
+gml_Object_e_sansp_act0_Draw_0
+
+----------------------------------------
+
+gml_Object_o_bonesans_Create_0
+
+----------------------------------------
+
+gml_Object_o_bonesansd_Other_0
+
+----------------------------------------
+
+gml_Object_o_sansfire_Create_0
+
+----------------------------------------
+
+gml_Object_o_sansfish_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act2_CleanUp_0
+
+----------------------------------------
+
+gml_Object_sans_act4_CleanUp_0
+
+----------------------------------------
+
+{font 4}{voice 3}杩欏嵆瑙嗘劅娴撶殑鍖栦笉寮
+
+----------------------------------------
+
+{font 4}{voice 3}鎴戠湅鍒颁簡浣犱竴娆″張涓
+
+----------------------------------------
+
+gml_Object_o_bonesansd_Step_0
+
+----------------------------------------
+
+gml_Object_o_bonesansd_Step_2
+
+----------------------------------------
+
+gml_Object_o_bonesansO_Step_0
+
+----------------------------------------
+
+gml_Object_o_sansfire_Other_7
+
+----------------------------------------
+
+gml_Object_sans_act1_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act1_Other_13
+
+----------------------------------------
+
+gml_Object_sans_act1_Other_15
+
+----------------------------------------
+
+gml_Object_sans_act1_Other_18
+
+----------------------------------------
+
+gml_Object_sans_act1_Other_10
+
+----------------------------------------
+
+gml_Object_sans_act1_Other_23
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Step_0
+
+----------------------------------------
+
+gml_Object_sans_act2_5_Draw_0
+
+----------------------------------------
+
+gml_Object_sans_act2_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_11
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_13
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_15
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_17
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_10
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_20
+
+----------------------------------------
+
+gml_Object_sans_act2_Other_21
+
+----------------------------------------
+
+gml_Object_sans_act4_Create_0
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_11
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_13
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_15
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_18
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_10
+
+----------------------------------------
+
+gml_Object_sans_act4_Other_21
+
+----------------------------------------
+
+gml_Object_o_bonesans_Step_0
+
+----------------------------------------
+
+gml_Object_o_sansfire_Step_0
+
+----------------------------------------
+
+gml_Object_o_sansfish_Step_0
+
+----------------------------------------
+
+gml_Object_o_sansfish_Draw_0
+
+----------------------------------------
+
+gml_Object_sans_act4_Draw_75
+
+----------------------------------------
+
+Comic Sans MS pixel rus eng
+
+----------------------------------------
+
+gml_Object_sans_act1_Step_0
+
+----------------------------------------
+
+gml_Object_sans_act1_Draw_0
+
+----------------------------------------
+
+gml_Object_sans_act2_Step_0
+
+----------------------------------------
+
+gml_Object_sans_act2_Draw_0
+
+----------------------------------------
+
+gml_Object_sans_act4_Step_0
+
+----------------------------------------
+
+gml_Object_sans_act4_Draw_0
+
+----------------------------------------
+
+{font 4}{voice 3}浣嗘湁鏃舵垜浼氭湁涓
+
+----------------------------------------
+
+{font 4}{voice 3}浣嗘垜缁忓父浼氭湁涓
+
+----------------------------------------
+
+{font 4}{voice 3}* 鎴戞墍鍋氱殑涓
+
+----------------------------------------
+
+{font 4}{voice 3}寰堝彲鑳芥槸浣犻
+
+----------------------------------------
+
+{font 4}{voice 3}{bazar}*
+
+----------------------------------------
+
+{voice 2}{font 3}SANS - 5
+
+----------------------------------------
+
+{font 4}{voice 3}姣曠珶锛屼綘涓
+
+----------------------------------------
+
+...{sleep 30}{sansangry}
+
+----------------------------------------
+
+font_determination_sans
+
+----------------------------------------
+
+snd_text_voice_sans.ogg
+
+----------------------------------------
+
+{font 4}{voice 3}* 鑰屽敮涓
+
+----------------------------------------
+
+{font 4}{voice 3}* 浠栨瘡鏉
+
+----------------------------------------
+
+{font 4}{voice 3}{hf 2}
+
+----------------------------------------
+
+{font 4}{voice 3}{svo}*
+
+----------------------------------------
+
+{voice 2}{font 3}SANS?
+
+----------------------------------------
+
+{font 4}{voice 3}* ...
+
+----------------------------------------
+
+spr_waterfall_sans_arm
+
+----------------------------------------
+
+{voice 3}{font 4}鏀惧純鍚с
+
+----------------------------------------
+
+倇sleep 30}浣嗘槸Sans涓嶅湪涔庛
+
+----------------------------------------
+
+{font 4}{voice 3}杩欏緢濂囨
+
+----------------------------------------
+
+{sleep 10}{sansangry},
+
+----------------------------------------
+
+snd_hitsansfinal2.ogg
+
+----------------------------------------
+
+{font 3}{voice 2}Sans
+
+----------------------------------------
+
+{font 3}{voice 2}SANS
+
+----------------------------------------
+
+{voice 2}{font 3}SANS
+
+----------------------------------------
+
+{sleep 10}{sansangry}
+
+----------------------------------------
+
+{font 4}{voice 3}* 鎵
+
+----------------------------------------
+
+snd_text_voice_sans
+
+----------------------------------------
+
+BoneSansDoutnotprec
+
+----------------------------------------
+
+* Sans鐨勮剳瀛愯秺鏉ヨ秺娣蜂贡銆
+
+----------------------------------------
+
+Determination Sans
+
+----------------------------------------
+
+{font 4}{voice 3}浠
+
+----------------------------------------
+
+{font 4}{voice 3}*
+
+----------------------------------------
+
+* Sans hesitates.
+
+----------------------------------------
+
+snd_hitsansfinal2
+
+----------------------------------------
+
+act2_sansturn1alt
+
+----------------------------------------
+
+act2_sansturn2alt
+
+----------------------------------------
+
+act2_sansturn3alt
+
+----------------------------------------
+
+act4_sansturn2_11
+
+----------------------------------------
+
+trigger_fishsans2
+
+----------------------------------------
+
+trigger_fishsans3
+
+----------------------------------------
+
+trigger_sansfinal
+
+----------------------------------------
+
+trigger_sanswater
+
+----------------------------------------
+
+{font 4}{voice 3}
+
+----------------------------------------
+
+{voice 3}{font 4}
+
+----------------------------------------
+
+ov_sansrightdark
+
+----------------------------------------
+
+act2_sansturn8_5
+
+----------------------------------------
+
+act2_sansturn9_5
+
+----------------------------------------
+
+act2_sansturn9_6
+
+----------------------------------------
+
+act2_sansturn9_7
+
+----------------------------------------
+
+act2_sansturn9_8
+
+----------------------------------------
+
+trigger_fishsans
+
+----------------------------------------
+

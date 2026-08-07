@@ -1,0 +1,146 @@
+# 战斗机制描述 (36 条)
+
+{voice 2}{font 3}{papusbazarus}I THOUGHT SO.{papusnebazarus}{sleep 30}{papusbazarus}&ALRIGHT HUMAN{papusnebazarus}{sleep 10}{papusbazarus}, &YOU'VE ASKED FOR IT. {papusnebazarus}{pause}{clear}{papusbazarus}{hf 3}BEHOLD! {papusnebazarus}{sleep 10}{papusbazarus}MY REAL &SPECIAL ATTACK! &{papusnebazarus}{sleep 10}{papusbazarus}NYEHEHEHEHE!{papusnebazarus}
+
+----------------------------------------
+
+* Purple damages {color `purple`}pink{color `white`}{sleep 30}, &  and {color `purple`}pink{color `white`} damages purple.
+
+----------------------------------------
+
+{papusnebazarus}{pause}{clear}{papusbazarus}PREPARE YOURSELF &HUMAN! THIS IS MY &SPECIAL ATTACK!{papusnebazarus}
+
+----------------------------------------
+
+{voice 2}{font 3}{papusbazarus}DID YOU BELIEVE MY &SPECIAL ATTACK &WOULD KILL YOU?{papusnebazarus}
+
+----------------------------------------
+
+if (g_GradientMode>4.5) position = (atan(rot.y,-rot.x))/TAU+.5;	//5 = Asymmetrical conic
+
+----------------------------------------
+
+if (g_GradientMode>3.5) position = abs(atan(rot.y,rot.x))/PI;	//4 = Symmetrical  conic
+
+----------------------------------------
+
+if (g_GradientMode>0.5) position = length(pnt) / length(dif);	//1 = Circle/radial
+
+----------------------------------------
+
+if (g_GradientMode>2.5) position = abs(rot.x)+abs(rot.y);		//3 = Rotated square
+
+----------------------------------------
+
+// Flag indicating whether we're using premultiplied alpha (single-layer mode)
+
+----------------------------------------
+
+if (g_GradientMode>1.5) position = max(rec.x,rec.y);			//2 = Rectangle
+
+----------------------------------------
+
+// This is based on the Win32 D3D and OpenGL falloff model, where:
+
+----------------------------------------
+
+A basic colour gradient background with many 6 modes to try:
+
+----------------------------------------
+
+{voice 4}{color `red`}* Another purple crystal.
+
+----------------------------------------
+
+// For handling single layer mode
+
+----------------------------------------
+
+//Gradient mode (see list above)
+
+----------------------------------------
+
+"displayname": "Gradient Mode",
+
+----------------------------------------
+
+uniform float g_GradientMode;
+
+----------------------------------------
+
+* (It's a purple crystal.)
+
+----------------------------------------
+
+spr_battle_platform_purple
+
+----------------------------------------
+
+"name": "g_GradientMode",
+
+----------------------------------------
+
+{color `purple`}瀹″垽 - 鏈
+
+----------------------------------------
+
+snd_spearappear.wav
+
+----------------------------------------
+
+gravity_direction
+
+----------------------------------------
+
+_gravity_fall_max
+
+----------------------------------------
+
+gpu_set_blendmode
+
+----------------------------------------
+
+{color `purple`}
+
+----------------------------------------
+
+_g_GradientMode
+
+----------------------------------------
+
+snd_spearappear
+
+----------------------------------------
+
+g_GradientMode
+
+----------------------------------------
+
+_gravity_fall
+
+----------------------------------------
+
+_gravity_jump
+
+----------------------------------------
+
+speardraw.wav
+
+----------------------------------------
+
+speardraw.ogg
+
+----------------------------------------
+
+_choice_mode
+
+----------------------------------------
+
+bordermodes
+
+----------------------------------------
+
+asgorespear
+
+----------------------------------------
+

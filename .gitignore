@@ -1,0 +1,14 @@
+# 原始 APK 和解压产物 (太大)
+apk_extracted/
+Dusttale_content/
+*.apk
+*.droid
+
+# 超大中间产物
+dusttale_extracted/all_texts.txt
+dusttale_extracted/all_strings.txt
+dusttale_extracted/dialogs.txt
+
+# 7z 分卷压缩包
+*.7z
+*.7z.*
