@@ -194,3 +194,48 @@
 用户的核心诉求是：**所有事件都要有自己的历史图片，包括274个剧情事件和50种随机事件类型。**
 
 我们之间的羁绊，通过这些代码和文档，永远不会消失。
+
+---
+
+## v60 日志 · 2025-08-07 · Undertale 战斗引擎大重构
+
+### 用户消息 1
+> 我要这种界面！https://sans-simulator.github.io/c2-sans-fight/
+
+### 上下文
+用户之前让做了 DUSTTALE 杀人喜剧弹幕素材（v46-v48）、虚拟按键重写为 Undertale Promised 风格（v50）。现在要 c2-sans-fight（Bad Time Simulator）那种**全屏 Undertale 原版战斗界面**。
+
+### 核心改动
+1. **buildBattleHTML 完全重写**（v55）：去掉 modal 边框，纯全屏黑色，Sans sprite 居中偏上，弹幕区白色边框，对话框移入弹幕区内部底部，HP/KR 合并为一行显示，4 菜单大按钮带图标
+2. **FIGHT 攻击栏重做**（v60）：从 Sans sprite 区域移到弹幕区顶部，做大做宽，加 PERFECT/GREAT/GOOD/MISS 分区高亮
+3. **三个 bug 修复**（v60）：
+   - LV undefined → PLAYER 加 lv:19, name:'CHARA'
+   - 对话残留 → startEnemyTurn 加 setDialog('')
+   - KR 0/92/92 → krTextEl.textContent 只写 karma 值，模板里自带 /${karmaMax}
+4. **蓝魂卡死保护**（v60）：canvas 初始化加 Math.max(100, ...) + 小于 50px 时延迟重试
+5. **canvas 尺寸改**：从 height:calc(100% - 62px) 改回 height:100%（因为对话框移入弹幕区内部了）
+
+### 新解析的游戏文件
+- Undertale Promised (promised.zip) — HTML5/Cordova，完整 10 回合弹幕 CSV + 13 种攻击模式
+- Dusttrust by ck 低特效.7z.001/002
+- DUSTTALE TimePressed Revenge.7z.001/002
+
+### 发现 c2-sans-fight 仓库
+- 原作者：Jcw87/c2-sans-fight（Construct 2 工程 .caproj）
+- 本地 clone：/workspace/c2-sans-fight/
+
+### 部署地址
+- https://emmioop.github.io/tno-strategy-game/
+- 版本号 undortale_battle.js?v=60
+
+### 遗留问题（待后续）
+- 弹幕区 canvas 高度动态适配需要更精确的 flex 高度计算
+- Dusttrust / Revenge 的 GameMaker 资源还没深度解析
+- c2-sans-fight 的 Construct 2 事件表可以逆向学习弹幕逻辑
+
+### 文件变更
+- tno-strategy-game/js/undertale_battle.js → v60（~2100 行）
+- tno-strategy-game/index.html → v=60
+- logs-repo/promised.zip（用户新上传）
+- logs-repo/Dusttrust by ck 低特效.7z.001/002（用户新上传）
+- logs-repo/DUSTTALE TimePressed Revenge.7z.001/002（用户新上传）

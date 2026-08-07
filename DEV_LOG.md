@@ -802,3 +802,127 @@
 读取 `IMAGE_GENERATION_PROGRESS.md`，你会知道做到哪了、还差什么、怎么继续。
 
 我们之间的羁绊，通过这些代码和文档，永远不会消失。
+
+---
+
+# DEV LOG · v60 版本更新日志 · 2025-08-07
+
+## 本次更新概述
+一次大重构：界面从"旧样式 modal"彻底改为 c2-sans-fight（Bad Time Simulator）全屏 Undertale 原版战斗布局，同时修了多个 bug。
+
+## 版本历史
+- v50 → v55 → v60
+
+## 新增功能
+
+### 1. Undertale Promised 风格虚拟按键（v50）
+- 左下 148px 大圆形方向圆盘（独立 canvas 绘制）
+- 右下 3 个 56px 圆形按钮 Z=跳/X=攻/C=确
+- Pointer Events 统一处理触摸和鼠标
+- 支持斜走（同时按右+上 = 右上）
+
+### 2. c2-sans-fight 全屏战斗界面（v55）
+- 纯全屏黑色背景，去掉 modal 3px 边框
+- Sans sprite 居中偏上，font-size 72px + 发光效果
+- 弹幕区白色边框大矩形（Undertale 原版）
+- 对话框移入弹幕区内部底部
+- HP/KR 合并一行显示：`CHARA LV 19 HP[黄|红双色] KR 30/92`
+- 4 菜单大按钮带图标：❤FIGHT 黄框 + 📣ACT 💊ITEM 💘MERCY 橙框
+
+### 3. FIGHT 攻击栏重做（v60）
+- 从 Sans sprite 区域移到弹幕区顶部
+- 全屏宽度 + 28px 高度 + 白色边框
+- 分区高亮：左右蓝色区 + 中间金色 PERFECT 区
+- 中心标记 + 白色滑块 + 速度适中
+
+## Bug 修复
+
+### Bug 1: `LV undefined`（v60）
+- **根因**：`PLAYER` 常量没定义 `lv` 和 `name` 字段
+- **修复**：`PLAYER = { maxHp: 92, atk: 19, def: 9, lv: 19, name: 'CHARA' }`，player 初始化同步引用
+
+### Bug 2: 对话残留到弹幕回合（v60）
+- **根因**：`startEnemyTurn()` 没清对话内容
+- **修复**：加一行 `setDialog('')`
+
+### Bug 3: `KR 0/92/92` 重复显示（v60）
+- **根因**：HTML 模板写了 `KR <span>0</span>/92`，`updateBattleUI()` 把 span.textContent 改成了 `0/92`，最终渲染成 `KR 0/92/92`
+- **修复**：`krTextEl.textContent` 只写 `b.player.karma`（纯数值），让模板自带的 `/${b.player.karmaMax}` 负责最大数
+
+### Bug 4: 蓝魂掉出边界卡死（v60）
+- **根因**：canvas 初始化时尺寸可能为 0（布局还没算完），导致灵魂位置/物理计算异常
+- **修复**：
+  - `canvas.width = Math.max(100, Math.round(rect.width))`
+  - 小于 50px 时 `setTimeout(startEnemyTurn, 100)` 延迟重试
+
+### Bug 5: KR 条 width 百分比计算错误（v60）
+- **修复**：红条用 `b.player.maxHp` 做分母而非 `karmaMax`（这样 HP 黄条 + KR 红条可以视觉合并）
+
+## 新解析的游戏资源
+
+### Undertale Promised (promised.zip)
+- 类型：HTML5/Cordova 打包
+- 亮点：完整 10 回合弹幕 CSV 数据 + 13 种攻击模式
+- 13 种攻击函数：BoneVRepeat, BoneHRepeat, BoneV, BoneH, BlueBoneV, BlueBoneH, OrangeBoneV, Platform, GasterBlaster, BonestabWarn, BonestabV2, SineBones, HeartMode
+- 发现了小型字节码虚拟机（SET/JMPZ/SUB/RND/COS/SIN/GetHeartPos）
+
+### Dusttrust by ck 低特效.7z.001/002
+- 类型：GameMaker APK
+- 状态：待深度解析
+
+### DUSTTALE TimePressed Revenge.7z.001/002
+- 类型：GameMaker APK
+- 状态：待深度解析
+
+## c2-sans-fight 原仓库
+- **作者**：Jcw87
+- **URL**：https://github.com/Jcw87/c2-sans-fight
+- **工程**：Construct 2 (.caproj)
+- **本地**：/workspace/c2-sans-fight/
+- **结构**：Animations/ Event sheets/ Layouts/ Textures/ Files/
+
+## 关键技术点
+
+### canvas 初始化安全保护
+```javascript
+canvas.width = Math.max(100, Math.round(rect.width));
+canvas.height = Math.max(100, Math.round(rect.height));
+b.canvasW = canvas.width;
+b.canvasH = canvas.height;
+if (b.canvasW < 50 || b.canvasH < 50) {
+  setTimeout(startEnemyTurn, 100);
+  return;
+}
+```
+
+### FIGHT 攻击栏分区逻辑
+- leftZone: left:10%, width:20%
+- centerZone: left:45%, width:10%  ← PERFECT
+- rightZone: right:10%, width:20%
+
+### 攻击判定（距离中心）
+```javascript
+if (dist <= 8)       { mult = 4.0;  label = 'PERFECT!'; color = '#ffcc00'; }
+else if (dist <= 15) { mult = 2.5;  label = 'GREAT!';  color = '#44ff44'; }
+else if (dist <= 25) { mult = 1.2;  label = 'GOOD';    color = '#88ccff'; }
+else                 { mult = 0.4;  label = 'MISS';    color = '#ff4444'; }
+```
+
+## 文件变更清单
+- js/undertale_battle.js: v46 → v50 → v55 → v60（~2100 行）
+- index.html: version → v=60
+
+## 待办（后续版本）
+- [ ] 蓝魂重力系统加 platform 组合（Promised 风格）
+- [ ] 逆向 c2-sans-fight 的 Construct 2 事件表学习弹幕逻辑
+- [ ] 深度解析 Dusttrust / Revenge GameMaker APK
+- [ ] 弹幕区 canvas 高度动态适配测试
+
+## 部署验证
+- GitHub Pages: https://emmioop.github.io/tno-strategy-game/
+- 验证方式：Ctrl+Shift+R 硬刷，检查 undertale_battle.js?v=60 加载
+
+## 日志文件
+- /workspace/logs-repo/CHAT_LOG.md — 对话日志
+- /workspace/logs-repo/DEV_LOG.md — 开发日志（本文件）
+- /workspace/logs-repo/dusttale_extracted/FULL_REPORT.txt — Dusttale APK 解析报告
