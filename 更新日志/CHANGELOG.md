@@ -10,10 +10,12 @@
 ### 新增（已合并，尚未标记版本号）
 - 💀 **Sans BOSS 战 Debug 模式**（Sans 独立 BOSS 战页面 & TNO 主游戏 Undertale Battle 双通道）
   - **Sans 独立页**（sans/index.html，C2 runtime 全局变量注入）
-    - `?debug=god` / `?debug=1`：HP + MaxHP 锁满，KR 强制 0（每 80ms 恢复一次）
+    - `?debug=god` / `?debug=1`：HP/MaxHP/KR 被 hook，任何扣血/加 KR 操作当场被拦截并还原
     - `?debug=sanshp`：EnemyHP = EnemyHpMax = 1，一击必杀
     - `?debug=all`：全开
     - `window.__C2_DEBUG__` 暴露
+    - **实现原理**：直接 monkey-patch `EventVariable.setValue` + `Object.defineProperty(hp, 'data', {...})` getter/setter 双重拦截。C2 事件表对 HP 的任何 Subtract/Set 写入都被当场挡下，永远返回 MaxHP。KR 同理锁死为 0
+    - **踩过的坑**：第一版用 80ms setInterval 轮询恢复 HP，但 C2 事件表在同一帧内就能完成"扣血 → HP<=0 → 触发 defeat"三连，定时器根本赶不上（`be3f082` 修复）
   - **TNO 主游戏 UndertaleBattle**（js/undertale_battle.js）
     - `?debug=god` / `?debug=1`：无限血（命中显示绿色 ∞ 粒子）
     - `?debug=heal`：四种物品 ×99
