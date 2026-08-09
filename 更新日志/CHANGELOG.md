@@ -8,6 +8,12 @@
 ## [Unreleased] · 待发布
 
 ### 新增（已合并，尚未标记版本号）
+- 💀 **Sans BOSS 战 Debug 模式**（URL query 开关）
+  - `?debug=1` 或 `?debug=god`：无限血（HP ∞，命中显示绿色 ∞ 粒子，不扣 HP/Karma，不会 defeat）
+  - `?debug=heal`：四种物品 ×99
+  - `?debug=all`：全开
+  - HP 条下方显示绿色 `DEBUG GOD` / 橙色 `DEBUG ITEMS×99` 徽标
+  - `window.__BATTLE_DEBUG__` 暴露给控制台实时查看
 - 💀 **Sans BOSS 战加载进度条与阶段告示**
   - 新增全屏 overlay（#c2loader），含渐变进度条 + 实时百分比 + 阶段文字
   - 每 250ms 轮询 `runtime.loadingprogress` 驱动进度条，加载完成自动淡出并移除 DOM
