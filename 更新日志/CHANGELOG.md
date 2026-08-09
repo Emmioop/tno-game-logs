@@ -8,6 +8,12 @@
 ## [Unreleased] · 待发布
 
 ### 新增（已合并，尚未标记版本号）
+- 💀 **Sans BOSS 战加载进度条与阶段告示**
+  - 新增全屏 overlay（#c2loader），含渐变进度条 + 实时百分比 + 阶段文字
+  - 每 250ms 轮询 `runtime.loadingprogress` 驱动进度条，加载完成自动淡出并移除 DOM
+  - 7 个阶段提示：data.js → 字体 → 角色图 → Gaster Blaster → CSV 弹幕 → 音效 → 编译运行时
+  - 卡住检测：连续 5s 百分比不更新时提示"网络较慢，仍在加载…请耐心等待"
+  - 底部常驻告示：首次加载约 30–90 秒（30MB 资源经 CDN 传输），请勿关闭页面
 - 🎲 **沙盒模式 & 混乱模式全面升级**
   - **GAME_MODES 扩展**：7 个差异化配置字段（focusSpeedMod / eventTurnJitter / allowFocusSwitch / chaosStabilityJitter / chaosRelationJitter / chaosRandomEventChance / initialResourceBonus）
   - **国策速度倍率**：沙盒 1.6x 加速 / 混乱 1.3x 加速 / 历史 1.0x 原味
