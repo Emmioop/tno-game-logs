@@ -8,12 +8,17 @@
 ## [Unreleased] · 待发布
 
 ### 新增（已合并，尚未标记版本号）
-- 💀 **Sans BOSS 战 Debug 模式**（URL query 开关）
-  - `?debug=1` 或 `?debug=god`：无限血（HP ∞，命中显示绿色 ∞ 粒子，不扣 HP/Karma，不会 defeat）
-  - `?debug=heal`：四种物品 ×99
-  - `?debug=all`：全开
-  - HP 条下方显示绿色 `DEBUG GOD` / 橙色 `DEBUG ITEMS×99` 徽标
-  - `window.__BATTLE_DEBUG__` 暴露给控制台实时查看
+- 💀 **Sans BOSS 战 Debug 模式**（Sans 独立 BOSS 战页面 & TNO 主游戏 Undertale Battle 双通道）
+  - **Sans 独立页**（sans/index.html，C2 runtime 全局变量注入）
+    - `?debug=god` / `?debug=1`：HP + MaxHP 锁满，KR 强制 0（每 80ms 恢复一次）
+    - `?debug=sanshp`：EnemyHP = EnemyHpMax = 1，一击必杀
+    - `?debug=all`：全开
+    - `window.__C2_DEBUG__` 暴露
+  - **TNO 主游戏 UndertaleBattle**（js/undertale_battle.js）
+    - `?debug=god` / `?debug=1`：无限血（命中显示绿色 ∞ 粒子）
+    - `?debug=heal`：四种物品 ×99
+    - `?debug=all`：全开
+    - HP 条下方显示 DEBUG 徽标，`window.__BATTLE_DEBUG__` 暴露
 - 💀 **Sans BOSS 战加载进度条与阶段告示**
   - 新增全屏 overlay（#c2loader），含渐变进度条 + 实时百分比 + 阶段文字
   - 每 250ms 轮询 `runtime.loadingprogress` 驱动进度条，加载完成自动淡出并移除 DOM
