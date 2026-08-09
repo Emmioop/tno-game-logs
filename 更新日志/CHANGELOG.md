@@ -48,6 +48,13 @@
   - 沉浸完整版：完整剧情约 240 弹窗
 - 🔧 **核力量平衡重构**：德 580 枚、美日各有核武、俄军阀无核
 
+### 修复
+- 🔧 **事件优先级表修正**（tagPriority）
+  - `military` 从 5 升至 2：东线战事、戈林东线行动等军事事件不再排在经济事件之后
+  - `story` 从 2 降至 5：叙事风味弹窗不再压过军事/外交/经济决策事件
+  - 修正后顺序：critical(0) → major(1) → military(2) → diplomacy(3) → economy/tech/culture(4) → story(5) → minor(6) → random(8)
+  - 示例：1964Q2 戈林东线行动（military）现在排在施佩尔 OFN 渠道（diplomacy）和日本经济危机（economy）之前
+
 ### 计划中
 - 更多剧情事件链
 - 多语言支持
